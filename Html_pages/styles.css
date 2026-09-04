@@ -1,0 +1,92 @@
+/*Pagination*/
+
+.pagination {
+  text-align: center;
+}
+.pagination a {
+  color: black;
+  text-decoration: none;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px 14px;
+  background-color: rgb(181, 175, 175);
+  display: inline-flex;
+}
+.pagination a:hover {
+  background-color: rgb(104, 98, 96);
+}
+.pagination a.open {
+  background-color: rgb(14, 194, 14);
+  font-weight: bold;
+}
+.pagination a.open:hover {
+  background-color: green;
+}
+
+/*Dropdown*/
+
+.dropdown button {
+  background-color: cornflowerblue;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 5px;
+  height: 100px;
+  width: 200px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.dropdown button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 94, 255);
+}
+.dropdown .content a {
+  text-decoration: none;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  background-color: rgb(135, 233, 237);
+  color: black;
+  display: block;
+  padding: 10px 35px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.dropdown .content {
+  position: absolute;
+  display: none;
+}
+.dropdown:hover .content {
+  display: block;
+}
+.dropdown .content a:hover {
+  background-color: rgb(8, 236, 206);
+}
+.dropdown {
+  display: inline-block;
+}
+/*Navigation Bar*/
+
+.navbar ul {
+  padding: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: grey;
+  border-style: solid;
+  border-color: rgb(73, 72, 70);
+  display: block;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 20px 35px;
+  float: left;
+}
+
+.navbar .open {
+  background-color: rgb(78, 80, 76);
+}
+.navbar a:hover {
+  background-color: rgb(175, 173, 169);
+  cursor: pointer;
+}
